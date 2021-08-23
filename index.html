@@ -11,20 +11,15 @@
 
                 Amount <input type="number"  id="principal">  <br/>
                 Rate <input type="number"  id="rate">  <br/>
-             
-                <select id="years">
-                <option value="1">1</option>
-                <!-- fill in the rest of the values-->
-                </select>
-
-                
                 <input type="range" id="rate" min="minval" max="maxval" value="default_val">
                 <span id="rate_val">10.25%</span> <br/>
-
-
-            <button onclick="compute()">Compute Interest</button>
-            <span id="result"></span>
-        </div> 
+                No. of Years <select id="years">
+                <option value="1">1</option>
+                <!-- fill in the rest of the values-->
+                </select>                           
+               <button onclick="compute()">Compute Interest</button>
+              <span id="result"></span>
+         </div> 
     </body>
     <footer>
         <br/>
